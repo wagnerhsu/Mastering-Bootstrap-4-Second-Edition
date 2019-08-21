@@ -33,5 +33,19 @@ namespace Chap03.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public IActionResult Step01() => View();
+        public IActionResult Example01() => View();
+        public IActionResult Example02() => View();
+        public IActionResult Example03() => View();
+        public IActionResult Example04() => View();
+        public IActionResult Example05() => View();
+        public IActionResult Example06() => View();
+        public IActionResult Example07() => View();
+        public IActionResult Example08() => View();
+        public IActionResult Example09() => View();
+        public IActionResult Example10() => View();
+        public IActionResult Example11() => View();
+        public IActionResult Example12() => View();
     }
 }
