@@ -19,6 +19,10 @@
       "library": "popper.js@1.15.0",
       "files": [ "umd/popper.js" ],
       "destination": "wwwroot/lib/bootstrap/"
+    },
+    {
+      "library": "font-awesome@5.9.0",
+      "destination": "wwwroot/lib/font-awesome"
     }
   ]
 }

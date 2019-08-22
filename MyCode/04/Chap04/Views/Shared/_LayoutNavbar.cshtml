@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Chap04</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <a class="navbar-brand" asp-action="Index" asp-controller="Home">MyPhoto</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navigation">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Index" asp-controller="Home">Index</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Privacy" asp-controller="Home">Privacy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Privacy" asp-controller="Home">Privacy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Privacy" asp-controller="Home">Privacy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Privacy" asp-controller="Home">Privacy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Privacy" asp-controller="Home">Privacy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Privacy" asp-controller="Home">Privacy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Privacy" asp-controller="Home">Privacy</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav pull-right">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            Profile<span class="caret"></span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#">
+                                Profile
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                Settings
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#"> Logout</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2019 - Chap04 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/bootstrap/umd/popper.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

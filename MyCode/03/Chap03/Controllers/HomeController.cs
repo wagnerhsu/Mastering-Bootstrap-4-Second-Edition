@@ -47,5 +47,9 @@ namespace Chap03.Controllers
         public IActionResult Example10() => View();
         public IActionResult Example11() => View();
         public IActionResult Example12() => View();
+        public IActionResult Example13() => View();
+        public IActionResult Example14() => View();
+        public IActionResult Example15() => View();
+        public IActionResult Example16() => View();
     }
 }
